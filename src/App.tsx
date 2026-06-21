@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import LayoutSection from './components/sections/LayoutSection';
 import TypographySection from './components/sections/TypographySection';
+import FormSection from './components/sections/FormSection';
 import type { SectionId } from './sections';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <main className="main">
         {active === 'layout' && <LayoutSection />}
         {active === 'typography' && <TypographySection />}
-        {active !== 'layout' && active !== 'typography' && (
+        {active === 'forms' && <FormSection />}
+        {active !== 'layout' && active !== 'typography' && active !== 'forms' && (
           <div className="section">
             <h2>Diese Sektion ist noch nicht implementiert</h2>
             <p className="section-intro">
