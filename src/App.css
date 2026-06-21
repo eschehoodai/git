@@ -233,3 +233,88 @@ code {
 .container-md { max-width: 640px; }
 .container-lg { max-width: 960px; }
 .container-fluid { max-width: 100%; }
+
+/* ===== Typography ===== */
+.text-xs { font-size: 0.75rem; }
+.text-sm { font-size: 0.875rem; }
+.text-base { font-size: 1rem; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+
+.font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.font-serif { font-family: Georgia, 'Times New Roman', serif; }
+.font-mono { font-family: 'SF Mono', Monaco, Consolas, 'Courier New', monospace; }
+.font-cursive { font-family: 'Brush Script MT', cursive; font-style: italic; }
+
+.example h1 { font-size: 2.25rem; color: #111827; margin-bottom: 0.4em; }
+.example h2 { font-size: 1.8rem; color: #111827; }
+.example h3 { margin-top: 1em; }
+.example h4 { color: #374151; margin-top: 1.2em; margin-bottom: 0.4em; }
+.example h5 { color: #4b5563; font-size: 0.95rem; }
+.example h6 { color: #6b7280; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+
+.example a {
+  color: #3b82f6;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.example a:hover { color: #1d4ed8; }
+
+.example mark {
+  background: #fef3c7;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.example ul, .example ol {
+  padding-left: 1.5em;
+  line-height: 1.8;
+}
+.example ul li { list-style: disc; }
+.example ol li { list-style: decimal; }
+.example ul ul li { list-style: circle; }
+
+.example dt {
+  font-weight: 600;
+  margin-top: 0.6em;
+  color: #1f2937;
+}
+.example dd {
+  margin-left: 1.5em;
+  color: #4b5563;
+  margin-bottom: 0.4em;
+}
+
+.quote {
+  border-left: 4px solid #3b82f6;
+  background: #eff6ff;
+  padding: 1em 1.2em;
+  margin: 1em 0;
+  font-style: italic;
+  color: #1e40af;
+  border-radius: 0 6px 6px 0;
+}
+.quote cite {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.85rem;
+  font-style: normal;
+  color: #6b7280;
+}
+.quote-alt {
+  border-left-color: #10b981;
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.code-block {
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 1em 1.2em;
+  border-radius: 6px;
+  font-family: 'SF Mono', Monaco, monospace;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  line-height: 1.5;
+}

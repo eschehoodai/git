@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import LayoutSection from './components/sections/LayoutSection';
+import TypographySection from './components/sections/TypographySection';
 import type { SectionId } from './sections';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Sidebar active={active} onSelect={setActive} />
       <main className="main">
         {active === 'layout' && <LayoutSection />}
-        {active !== 'layout' && (
+        {active === 'typography' && <TypographySection />}
+        {active !== 'layout' && active !== 'typography' && (
           <div className="section">
             <h2>Diese Sektion ist noch nicht implementiert</h2>
             <p className="section-intro">
