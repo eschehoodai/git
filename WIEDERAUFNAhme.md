@@ -14,10 +14,13 @@ Dieses Projekt zeigt alle grafischen Inhalte, die mit React.js + TSX möglich si
   - `src/App.css` — Styles für Layout, Navigation, Buttons, Cards
   - `vite.config.ts` — Host-Whitelist für externe URLs
   - Dev-Server läuft auf Port 12000
+- Schritt 4: **Typografie-Kategorie** implementiert:
+  - `src/components/sections/TypographySection.tsx` — Überschriften, Fließtext, Schriftgrößen, Schriftarten, Listen, Zitate, Code-Blöcke
+  - `App.tsx` — Section-Integration
+  - `App.css` — Typografie-Styles
 
 ### 🔄 Nächste Schritte (Reihenfolge):
 
-4. **Typografie** — Überschriften, Texte, Schriftarten, Listen, Zitate
 5. **Formulare** — Inputs, Buttons, Checkboxen, Radios, Selects, Textarea
 6. **Buttons & Badges** — verschiedene Button-Stile, Badges, Tags
 7. **Tabellen & Daten** — einfache Tabelle, sortierbar, mit Pagination
