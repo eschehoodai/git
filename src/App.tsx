@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import LayoutSection from './components/sections/LayoutSection';
 import TypographySection from './components/sections/TypographySection';
 import FormSection from './components/sections/FormSection';
+import ButtonBadgeSection from './components/sections/ButtonBadgeSection';
 import type { SectionId } from './sections';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         {active === 'layout' && <LayoutSection />}
         {active === 'typography' && <TypographySection />}
         {active === 'forms' && <FormSection />}
-        {active !== 'layout' && active !== 'typography' && active !== 'forms' && (
+        {active === 'buttons' && <ButtonBadgeSection />}
+        {active !== 'layout' && active !== 'typography' && active !== 'forms' && active !== 'buttons' && (
           <div className="section">
             <h2>Diese Sektion ist noch nicht implementiert</h2>
             <p className="section-intro">
