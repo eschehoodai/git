@@ -19,13 +19,17 @@ Dieses Projekt zeigt alle grafischen Inhalte, die mit React.js + TSX möglich si
   - `App.tsx` — Section-Integration
   - `App.css` — Typografie-Styles
 - Schritt 5: **Formulare-Kategorie** implementiert:
+- Schritt 6: **Buttons & Badges-Kategorie** implementiert:
+  - `src/components/sections/ButtonBadgeSection.tsx` — Primary/Secondary/Outline/Ghost/Danger Buttons, Icon Buttons, Button Groups, Loading Buttons mit Spinner, Block-Buttons, Circular Buttons, Badges (Default/Primary/Success/Warning/Danger/Info), Pill-Badges, Badge Counters, Tags, Status Indicators
+  - `App.tsx` — Section-Integration
+  - `App.css` — Umfangreiche Button- und Badge-Styles
+
   - `src/components/sections/FormSection.tsx` — Text-Inputs, Disabled/Readonly, Textarea, Select, Checkboxen, Radios, Toggle/Switch, Range, Color/Date/Time, File-Upload, Fieldset, Buttons, Form-Submit mit Bestätigung
   - `App.tsx` — Section-Integration
   - `App.css` — Formular-Styles mit Focus-Indikatoren
 
 ### 🔄 Nächste Schritte (Reihenfolge):
 
-6. **Buttons & Badges** — verschiedene Button-Stile, Badges, Tags
 7. **Tabellen & Daten** — einfache Tabelle, sortierbar, mit Pagination
 8. **Modals & Overlays** — Modal-Dialog, Tooltip, Popover, Dropdown
 9. **Alerts & Notifications** — Toasts, Alert-Boxen, Banner
