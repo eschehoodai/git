@@ -18,10 +18,13 @@ Dieses Projekt zeigt alle grafischen Inhalte, die mit React.js + TSX möglich si
   - `src/components/sections/TypographySection.tsx` — Überschriften, Fließtext, Schriftgrößen, Schriftarten, Listen, Zitate, Code-Blöcke
   - `App.tsx` — Section-Integration
   - `App.css` — Typografie-Styles
+- Schritt 5: **Formulare-Kategorie** implementiert:
+  - `src/components/sections/FormSection.tsx` — Text-Inputs, Disabled/Readonly, Textarea, Select, Checkboxen, Radios, Toggle/Switch, Range, Color/Date/Time, File-Upload, Fieldset, Buttons, Form-Submit mit Bestätigung
+  - `App.tsx` — Section-Integration
+  - `App.css` — Formular-Styles mit Focus-Indikatoren
 
 ### 🔄 Nächste Schritte (Reihenfolge):
 
-5. **Formulare** — Inputs, Buttons, Checkboxen, Radios, Selects, Textarea
 6. **Buttons & Badges** — verschiedene Button-Stile, Badges, Tags
 7. **Tabellen & Daten** — einfache Tabelle, sortierbar, mit Pagination
 8. **Modals & Overlays** — Modal-Dialog, Tooltip, Popover, Dropdown
